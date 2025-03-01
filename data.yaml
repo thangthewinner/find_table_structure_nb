@@ -1,0 +1,8 @@
+path: '.../FinTabNet.c-Structure'
+
+train: '.../yolo_dataset/images/train'
+val: '.../yolo_dataset/images/val'
+test: '.../yolo_dataset/images/test'
+
+nc: 6
+names: ['table', 'table spanning cell', 'table projected row header', 'table column header', 'table row', 'table column']
